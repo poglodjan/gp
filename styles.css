@@ -1,1 +1,68 @@
+#calaStrona {
+width: 1000px;
+margin-left:auto;
+margin-right:auto;
+border: 5px double black;
+background-color: #ffffff;
+}
 
+#logo {
+width:300px;
+margin-left:auto;
+margin-right:auto;
+
+}
+#logo img {
+width:290px;
+}
+
+#baner {
+text-align: center;
+width: 700px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#baner img{
+width:600px;
+border-radius:10px;
+}
+
+#nawigacja {
+width: 650px;
+margin-left:auto;
+margin-right:auto;
+border-top: 2px solid #000;
+border-bottom: 1px solid #000;
+padding:10px 20px 10px 20px;
+text-align: center;
+}
+li {
+display: inline;
+}
+
+a {
+color: #000000;
+text-transform: uppercase;
+text-decoration: none;
+margin-right:15px;
+}
+
+a:hover {
+color: #cc3333;
+background-color: #ffffff;}
+
+body {
+font-size: 12px;
+font-family: 'Quicksand', sans-serif;
+letter-spacing: 2px;;
+background-image:url('https://cdn.glitch.com/8bf6e9bb-2343-4faa-89c8-8e8795
+12e4ba%2F1f63ccd1-c0ed-4700-aa77-d85ae348d55f.obraz.png?v=1584217819425');
+  /*u
+stawiamy tło obrazkowe dla strony*/
+background-repeat: no-repeat;/*nie powtarzamy obrazka nawet jeśli jest
+miejsce na załadowanie kolejnego*/
+background-position: center; /*wyśrodkowanie tła*/
+background-attachment: fixed;/*podczas przewijania strony tło jest
+nieruchome*/
+}
